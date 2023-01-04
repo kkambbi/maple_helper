@@ -1,0 +1,99 @@
+#main {
+  margin-top: 15%;
+}
+
+.timer {
+  float: left;
+  text-align: center;
+  width: 70%;
+  border: 1px solid #aaa;
+  padding: 5px;
+  font-size: 35px;
+}
+
+.timer div {
+  padding: 2px;
+}
+
+.progressTime {
+  border-bottom: 1px solid #aaa;
+}
+
+.progressTime span, .reservedTime span {
+  font-weight: bold;
+}
+
+.nextTime {
+  color: #ff1b1b;
+}
+
+.nextTime .btnSync {
+  border: 1px solid #aaa;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+
+.button {
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+}
+
+.button .difficult {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  padding: 6px 3px;
+  margin: 7px 0px;
+  border-radius: 5px;
+  border: 2px solid;
+  font-weight: bold;
+}
+
+.button button {
+  width: 100%;
+  padding: 34px 4px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #6fffca;
+}
+
+.button .isRunning {
+  background-color: #fb6d36;
+}
+
+.buttonGroup {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.buttonGroup button {
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 5px;
+  font-size: 30px;
+  background-color: white;
+}
+
+.buttonGroup .second {
+  margin: 0px 3%;
+}
+
+.buttonGroup .selected {
+  background-color: #79fb89;
+}
+
+.guideImage {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.guideImage img {
+  width: 100%;
+}
